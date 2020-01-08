@@ -2,6 +2,7 @@
 
 #### Description
 a program to get the power consumption for intel
+you can read Chinese blog: https://blog.csdn.net/Xiaobai__Lee/article/details/100729269 for more details
 
 #### Software Architecture
 no
