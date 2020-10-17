@@ -45,7 +45,7 @@ rapl_power_unit get_rapl_power_unit() {
     double t = (1 << (data & 0xf));
     t = 1.0 / t;
     ret.PU = t;
-    t = (1 << ((data>>8) & 0xf));
+    t = (1 << ((data>>8) & 0x1f));
     ret.ESU = 1.0 / t;
     t = (1 << ((data>>16) & 0xf));
     ret.TU = 1.0 / t;
